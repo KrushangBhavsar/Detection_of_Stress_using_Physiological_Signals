@@ -19,8 +19,7 @@ In the current Anthropocene era many people are suffering from stress due to our
 WESAD dataset will be most relevant. in which a multi-modal data set was collected for stress classifications and assessed by multiple algorithms based on physiological data. The data was gathered in a laboratory setting. For collecting this data, they had chosen 15 people and recorded the physiological data such as threeaxis acceleration, electrocardiogram, blood volume pulse, body temperature, respiration, electromyogram and electrodermal activity by putting wearable devices – RespiBAN Professional and Empatica E4 on the chest and on the wrist respectively.
 
 ## Project Flow
-![flow](https://user-images.githubusercontent.com/88844422/129225318-60f5cd98-6d5d-49a8-a5f9-4b2d415e1650.PNG)
-
+![flow](https://user-images.githubusercontent.com/88844422/129226095-3af53df2-df46-4b21-afa6-4db910066816.PNG)
 
 ## Instruction to Implement
 1.	Download WESAD Dataset
@@ -29,5 +28,8 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 4.	Run Readme Parser.py
 5.	Run feature extraction.py for extracting the feature and classification
 6.	Validate the Data and Implement
+
+## Contact
+Email ID- kbhavsar@lakeheadu.ca
 
 
