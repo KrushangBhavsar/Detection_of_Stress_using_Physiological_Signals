@@ -31,5 +31,3 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 
 ## Contact
 Email ID- kbhavsar@lakeheadu.ca
-
-
