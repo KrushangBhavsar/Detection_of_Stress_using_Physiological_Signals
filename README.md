@@ -38,6 +38,7 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 
 ## Resource
 - https://github.com/arsen-movsesyan/springboard_WESAD
+- https://github.com/lciti/cvxEDA.
 
 ## Contact
 :e-mail: - kbhavsar@lakeheadu.ca
