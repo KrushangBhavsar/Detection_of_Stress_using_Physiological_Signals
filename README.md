@@ -16,18 +16,28 @@ In the current Anthropocene era many people are suffering from stress due to our
 - Scikit-learn = 0.22.2
 
 ## Dataset
-WESAD dataset will be most relevant. in which a multi-modal data set was collected for stress classifications and assessed by multiple algorithms based on physiological data. The data was gathered in a laboratory setting. For collecting this data, they had chosen 15 people and recorded the physiological data such as threeaxis acceleration, electrocardiogram, blood volume pulse, body temperature, respiration, electromyogram and electrodermal activity by putting wearable devices – RespiBAN Professional and Empatica E4 on the chest and on the wrist respectively.
+WESAD dataset will be most relevant. in which a multi-modal data set was collected for stress classifications and assessed by multiple algorithms based on physiological data. The data was gathered in a laboratory setting. For collecting this data, they had chosen 15 people and recorded the physiological data such as threeaxis acceleration, electrocardiogram, blood volume pulse, body temperature, respiration, electromyogram and electrodermal activity by putting wearable devices – RespiBAN Professional and Empatica E4 on the chest and on the wrist respectively. RespiBAN provides sensor data of EDA(Electro Dermal Activity), ECG(Electrocardiography), EMG(Electromyography), RESP(Respiratory), ACC(Three-axis Acceleration). All this signals are sampled at 700 Hz
 
 ## Project Flow
 ![flow](https://user-images.githubusercontent.com/88844422/129226095-3af53df2-df46-4b21-afa6-4db910066816.PNG)
 
 ## Instruction to Implement
-1.	Download WESAD Dataset
-2.	Provide proper path name 
-3.	Run Data Wrangling.py for Data collection and Cleaning
-4.	Run Readme Parser.py
-5.	Run feature extraction.py for extracting the feature and classification
-6.	Validate the Data and Implement
+1.	Download [WESAD Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)
+2.	Download [cvxEDA][2](https://github.com/lciti/cvxEDA) and store it in current working directory.
+3.	Run cvxEDA.py
+4.	Provide proper path name 
+5.	Run Data Wrangling.py for Data collection and Cleaning
+6	  Run Readme Parser.py
+7.	Run feature extraction.py for extracting the feature and classification
+8.	Validate the Data and Implement
+
+## Reference
+[1] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger and K. Van Laerhoven, "Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection", Proceedings of the 20th ACM International Conference on Multimodal Interaction, 2018. Available: 10.1145/3242969.3242985.
+
+[2] A. Greco, G. Valenza, A. Lanata, E. Scilingo and L. Citi, "cvxEDA: a Convex Optimization Approach to Electrodermal Activity Processing", IEEE Transactions on Biomedical Engineering, pp. 1-1, 2016. Available: https://github.com/lciti/cvxEDA.
+
+## Resource
+- https://github.com/arsen-movsesyan/springboard_WESAD
 
 ## Contact
-Email ID- kbhavsar@lakeheadu.ca
+:e-mail: - kbhavsar@lakeheadu.ca
