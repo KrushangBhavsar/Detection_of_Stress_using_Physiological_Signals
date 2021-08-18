@@ -1,5 +1,5 @@
 
-# Detection_of_Stress_using_Phyiological_Signals
+# Detection_of_Stress_using_Physiological_Signals
 This work aims to detect depression using physiological signals such as ECG (Elecrocardiography), EEG(Electroencephalographgy), GSR (Galvanic Skin Response), HRV (Heart Rate Variability). We used classifier to classify stress into 3-class classification. In addition to that, filtering and analysis techniques will be employed to improve algorithm efficiency.
 
 ## Project Background
@@ -23,13 +23,13 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 
 ## Instruction to Implement
 1.	Download [WESAD Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)
-2.	Now Open Jyupter Notebook and Run Below Files Sequentially
+2.	Now open Jyupter Notebook and Run below Files sequentially.
 3.	cvxEDA.ipynb
 4.	data_collection_cleaning.ipynb 
 5.	sub_info_parser.ipynb
 6	  feature_classification.ipynb
 7.	model_stress.ipynb 
-### Note:Change "Path to Dataset" to your path of dataset
+##### Note:Change "Path to Dataset" to your path of dataset
 
 ## Reference
 [1] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger and K. Van Laerhoven, "Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection", Proceedings of the 20th ACM International Conference on Multimodal Interaction, 2018. Available: 10.1145/3242969.3242985.
