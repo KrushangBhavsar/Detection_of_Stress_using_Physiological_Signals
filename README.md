@@ -23,7 +23,7 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 
 ## Instruction to Implement
 1.	Download [WESAD Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)
-2.	Now open Jyupter Notebook and Run below Files sequentially.
+2.	Now open Jupyter Notebook and Run below Files sequentially.
 3.	cvxEDA.ipynb
 4.	data_collection_cleaning.ipynb 
 5.	sub_info_parser.ipynb
