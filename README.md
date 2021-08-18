@@ -29,7 +29,7 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 5.	sub_info_parser.ipynb
 6	  feature_classification.ipynb
 7.	model_stress.ipynb 
-##### Note:Change "Path to Dataset" to your path of dataset
+##### Note:Change "Path to Dataset" to the path where you stored the dataset in code.
 
 ## Reference
 [1] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger and K. Van Laerhoven, "Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection", Proceedings of the 20th ACM International Conference on Multimodal Interaction, 2018. Available: 10.1145/3242969.3242985.
