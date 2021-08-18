@@ -21,14 +21,15 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 ## Project Flow
 ![flow](https://user-images.githubusercontent.com/88844422/129942954-fe224812-124b-4e94-ac78-a10bb004f0a9.PNG)
 
-## Instruction to Implement
-1.	Download [WESAD Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)
-2.	Now open Jupyter Notebook and Run below Files sequentially.
-3.	cvxEDA.ipynb
-4.	data_collection_cleaning.ipynb 
-5.	sub_info_parser.ipynb
-6	  feature_classification.ipynb
-7.	model_stress.ipynb 
+## Intruction to Implement
+1. Download [WESAD Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)
+2. Open Jupyter Notebook and Run below Files sequentially.
+3. cvxEDA.ipynb
+4. data_collection_cleaning.ipynb
+5. sub_info_parser.ipynb
+6. feature_classification.ipynb
+7. model_stress.ipynb
+
 ##### Note:Change "Path to Dataset" to the path where you stored the dataset in code.
 
 ## Reference
