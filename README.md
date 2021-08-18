@@ -19,17 +19,17 @@ In the current Anthropocene era many people are suffering from stress due to our
 WESAD dataset will be most relevant. in which a multi-modal data set was collected for stress classifications and assessed by multiple algorithms based on physiological data. The data was gathered in a laboratory setting. For collecting this data, they had chosen 15 people and recorded the physiological data such as threeaxis acceleration, electrocardiogram, blood volume pulse, body temperature, respiration, electromyogram and electrodermal activity by putting wearable devices – RespiBAN Professional and Empatica E4 on the chest and on the wrist respectively. RespiBAN provides sensor data of EDA(Electro Dermal Activity), ECG(Electrocardiography), EMG(Electromyography), RESP(Respiratory), ACC(Three-axis Acceleration). All this signals are sampled at 700 Hz.The Empatica E4 device provides sensor data of blood volume pulse (BVP, 64 Hz), electrodermal activity (EDA, 4 Hz), body temperature (4 Hz), and three-axis acceleration (32 Hz).[1]
 
 ## Project Flow
-![flow](https://user-images.githubusercontent.com/88844422/129226095-3af53df2-df46-4b21-afa6-4db910066816.PNG)
+![flow](https://user-images.githubusercontent.com/88844422/129942954-fe224812-124b-4e94-ac78-a10bb004f0a9.PNG)
 
 ## Instruction to Implement
 1.	Download [WESAD Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)
-2.	Download [cvxEDA](https://github.com/lciti/cvxEDA)[2] and store it in current working directory.
-3.	Run cvxEDA.py
-4.	Provide proper path name 
-5.	Run Data Wrangling.py for Data collection and Cleaning
-6	  Run Readme Parser.py
-7.	Run feature extraction.py for extracting the feature and classification
-8.	Validate the Data and Implement
+2.	Now Open Jyupter Notebook and Run Below Files Sequentially
+3.	cvxEDA.ipynb
+4.	data_collection_cleaning.ipynb 
+5.	sub_info_parser.ipynb
+6	  feature_classification.ipynb
+7.	model_stress.ipynb 
+### Note:Change "Path to Dataset" to your path of dataset
 
 ## Reference
 [1] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger and K. Van Laerhoven, "Introducing WESAD, a Multimodal Dataset for Wearable Stress and Affect Detection", Proceedings of the 20th ACM International Conference on Multimodal Interaction, 2018. Available: 10.1145/3242969.3242985.
@@ -39,6 +39,7 @@ WESAD dataset will be most relevant. in which a multi-modal data set was collect
 ## Resource
 - https://github.com/arsen-movsesyan/springboard_WESAD
 - https://github.com/lciti/cvxEDA.
+- https://github.com/MITMediaLabAffectiveComputing/eda-explorer/blob/master/AccelerometerFeatureExtractionScript.py
 
 ## Contact
 :e-mail: - kbhavsar@lakeheadu.ca
